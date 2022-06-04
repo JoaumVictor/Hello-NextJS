@@ -1,0 +1,22 @@
+$azulzinho: rgb(44, 90, 229);
+$azulzão: rgb(28, 57, 90);
+
+.sobre {
+  align-items: center;
+  background-color: azulzinho;
+  display: flex;
+  color: white;
+  padding: 30px;
+  margin: auto;
+  justify-content: space-evenly;
+  flex-flow: column nowrap;
+  background-color: $azulzão;
+  min-height: 88vh;
+  width: 80%;
+
+  p {
+    margin: 15px auto;
+    font-size: 20px;
+    font-weight: 600;
+  }
+}

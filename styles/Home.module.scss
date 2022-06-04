@@ -1,0 +1,31 @@
+$laranjinha: #e7821d;
+$azulzinho: rgb(44, 90, 229);
+$azulzão: rgb(28, 57, 90);
+
+.home {
+  background-color: $azulzão;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-flow: column nowrap;
+  margin: auto;
+  padding: 50px;
+  min-height: 88vh;
+  width: 80%;
+
+  h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  img {
+    border-radius: 50%;
+    transition: 1s;
+    width: 20%;
+
+    &:hover {
+      transform: rotateZ(10deg);
+    }
+  }
+}
