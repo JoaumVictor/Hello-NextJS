@@ -1,0 +1,32 @@
+@mixin disp($disp, $just, $dir, $wrap) {
+  align-items: center;
+  display: $disp;
+  justify-content: $just;
+  flex-flow: $dir $wrap;
+}
+
+.requestContainer {
+  @include disp(flex, inline-start, column, nowrap);
+  border: 3px solid black;
+  height: 88vh;
+
+  input {
+    border: 1px;
+    border-radius: 8px;
+    padding: 3px;
+    padding-left: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    height: 40px;
+    min-width: 200px;
+  }
+
+  .box {
+    @include disp(flex, space-evenly, row, nowrap);
+    border: 2px solid red;
+    margin: 5px;
+    height: 100px;
+    width: 50%;
+  }
+}

@@ -7,6 +7,12 @@ export default function Header() {
       <Link href="/">
         <a>Home</a>
       </Link>
+      <Link href="/info">
+        <a>Perfil</a>
+      </Link>
+      <Link href="/requisicoes">
+        <a>API</a>
+      </Link>
       <Link href="/sobre">
         <a>Anotações</a>
       </Link>

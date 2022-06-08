@@ -1,0 +1,30 @@
+$azulzão: rgb(28, 57, 90);
+
+.infoContainer {
+  align-items: center;
+  display: flex;
+  color: white;
+  padding: 30px;
+  margin: auto;
+  justify-content: space-evenly;
+  flex-flow: row nowrap;
+  background-color: $azulzão;
+  min-height: 88vh;
+  width: 80%;
+
+  .infoLeftContent, .infoRightContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: column nowrap;
+  }
+
+  .infoLeftContent {
+    width: 50%;
+  }
+
+  .infoRightContent {
+    width: 50%;
+
+  }
+}

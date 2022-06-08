@@ -1,0 +1,29 @@
+$headercolor: rgb(41, 34, 76);
+$azulzão: rgb(28, 57, 90);
+$azulzinho: rgb(44, 90, 229);
+$laranjinha: #e7821d;
+
+@mixin disp($disp, $just, $dir, $wrap) {
+  align-items: center;
+  display: $disp;
+  justify-content: $just;
+  flex-flow: $dir $wrap;
+}
+
+.ContainerBox {
+  @include disp(flex, space-evenly, column, nowrap);
+}
+
+.button {
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
+  font-weight: 900;
+  padding: 8px 14px;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+}

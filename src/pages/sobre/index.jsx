@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import Header from "../../components/Header/Header";
+import Header from "../../components/Header";
 import Imagem from "../../components/Imagem/Imagem";
 import S from "./style.module.scss";
 
