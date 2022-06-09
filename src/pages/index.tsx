@@ -1,18 +1,18 @@
 import Header from "../components/Header/index";
 import S from "../styles/Home.module.scss";
 
-interface HomeProps {
-  git: any;
+interface gitProps {
+  name: string;
+  avatar_url: string;
 }
 
-export default function Home(props: HomeProps) {
-  const { git } = props;
+export default function Home({ name, avatar_url }: gitProps) {
   return (
     <div>
       <Header />
       <div className={S.home}>
-        <h1>{git.name}</h1>
-        <img className={S.foto} src={git.avatar_url} alt="Minha Foto" />
+        <h1>{name}</h1>
+        <img className={S.foto} src={avatar_url} alt="Minha Foto" />
       </div>
     </div>
   );
