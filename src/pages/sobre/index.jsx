@@ -42,8 +42,17 @@ export default function sobre() {
           "useEffect", que só tenrará acessar o localStorage depois do
           carregamento da página no lado do cliente!
         </p>
-        <h2>Anotação 3:</h2>
-        <p>...</p>
+        <h2>Anotação 3: Tag Image?</h2>
+        <p>
+          Essa tag Image que você importa direto do next é deverás interessante,
+          ela gera sua imagem de forma mais rápida e priorize seu carregamento
+          na página, o next por trás dos panos guarda o conteúdo da sua imagem
+          em cache para uma possível volta a página do usuário ser feita
+          rápidamente, melhorando o LCP da página, que é basicamente a
+          experiência do usuário, as tags que mais impactam o LCP são a img e o
+          video, e os blocos de código que mais impactam o LCP de forma negativa
+          são aglomerados de texto que podem demorar a serem gerados!
+        </p>
         <h4>Links</h4>
         <a
           target="_blank"

@@ -1,8 +1,12 @@
-import Header from "../components/Header";
+import Header from "../components/Header/index";
 import S from "../styles/Home.module.scss";
 
-export default function Home({ git }) {
-  console.log(git);
+interface HomeProps {
+  git: any;
+}
+
+export default function Home(props: HomeProps) {
+  const { git } = props;
   return (
     <div>
       <Header />
